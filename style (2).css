@@ -1,0 +1,213 @@
+.banner {
+  background: url("./assets/kent-rebman-Hau9TnHS130-unsplash.jpg") no-repeat
+    center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+.crop-img {
+  object-fit: cover;
+}
+
+.tim img {
+  width: 250px;
+  border: 10px solid #cccccc;
+}
+
+a.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #333;
+  line-height: 40px;
+}
+
+.client img {
+  height: auto;
+  max-height: 50px;
+}
+
+.container-rumah {
+  padding: 80px 0;
+}
+
+/*
+asdojasoidhasfbdjdswufgaswdf
+*/
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/*===== VARIABLES CSS =====*/
+:root {
+  /*===== Colores =====*/
+  --first-color: #f2a20c;
+  --white-color: #e9eaec;
+  --dark-color: #272d40;
+  --dark-color-lighten: #f2f5ff;
+  /*===== Fuente y tipografia =====*/
+  --body-font: "Poppins", sans-serif;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+}
+
+/*===== BASE =====*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*===== CARD =====*/
+
+.card {
+  margin-left: 10%;
+  margin-top: 5%;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 5);
+  width: 350px;
+  height: 70vh;
+  background-color: var(--dark-color);
+  border-radius: 1rem;
+  padding: 0 2rem 0;
+  color: var(--white-color);
+  overflow-y: hidden;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin-bottom: 15%;
+}
+
+.card__img1,
+.card__img2 {
+  position: absolute;
+  width: 360px;
+  filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, 0.4));
+}
+
+.card__data {
+  transform: translateY(13.2rem);
+  text-align: center;
+}
+
+.card__title {
+  margin-top: 16rem;
+  font-size: var(--h1-font-size);
+  color: var(--first-color);
+  margin-bottom: 0.3rem;
+}
+
+.card__preci {
+  display: inline-block;
+  font-size: var(--h2-font-size);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.DP {
+  color: var(--first-color);
+}
+.card__description {
+  font-size: var(--small-font-size);
+  transform: translateX(-0.4rem);
+  text-align: initial;
+  margin-bottom: 2rem;
+  opacity: 0;
+}
+
+.card__button {
+  display: block;
+  padding: 1.125rem 2rem;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  border-radius: 25rem;
+  font-weight: 600;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.card__button:hover {
+  box-shadow: 0 18px 40px -12px rgba(242, 162, 12, 0.35);
+}
+
+.card__img1,
+.card__img2,
+.card__data,
+.card__title,
+.card__preci,
+.card__description {
+  transition: 0.5s;
+}
+
+/* Hover card effect */
+.card:hover .card__img1 {
+  transform: translate(0, -13rem);
+}
+.card:hover .card__img2 {
+  transform: translate(0, -13rem);
+}
+
+.card:hover .card__data {
+  transform: translateY(2rem);
+}
+
+.card:hover .card__title {
+  margin-top: 9rem;
+  transform: translateX(0.1rem);
+  margin-bottom: 0.8rem;
+}
+
+.card:hover .card__preci {
+  transform: translateX(-2.8rem);
+}
+
+.card:hover .card__description,
+.card:hover .card__button {
+  transition-delay: 0.2s;
+  opacity: 1;
+}
+
+.spesifikasib {
+  margin-left: 5%;
+}
+.syaratk {
+  float: right;
+}
