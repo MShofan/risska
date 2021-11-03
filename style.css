@@ -100,12 +100,11 @@ img {
 
 /*===== CARD =====*/
 
-.card {
-  margin-left: 10%;
+.Tiperumah .card {
   margin-top: 5%;
   box-shadow: 0 0 30px rgba(0, 0, 0, 5);
-  width: 350px;
-  height: 70vh;
+  width: 300px;
+  height: 600px;
   background-color: var(--dark-color);
   border-radius: 1rem;
   padding: 0 2rem 0;
@@ -210,4 +209,116 @@ img {
 }
 .syaratk {
   float: right;
+}
+/*
+selling point
+*/
+.sellings-point {
+  padding: 5%;
+}
+.sellings-point table {
+  background-color: #ffffff;
+}
+/*
+END selling point
+*/
+
+.list-group-item {
+  color: #f2270c;
+  font-weight: bold;
+}
+.display-3 {
+  margin-top: 2rem;
+}
+.Hubungi ul {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+}
+.Hubungi ul li {
+  position: static;
+  display: block;
+  color: #666;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  background: #ece7e7;
+  line-height: 60px;
+  border-radius: 50%;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.Hubungi ul li:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: inherit;
+  width: inherit;
+  /* background: #d35400; */
+  border-radius: 50%;
+  transform: scale(0.9);
+  z-index: -1;
+  transition: 0.5s;
+}
+.Hubungi ul li:nth-child(1):before {
+  background: #4267b2;
+}
+.Hubungi ul li:nth-child(2):before {
+  background: #1da1f2;
+}
+.Hubungi ul li:nth-child(3):before {
+  background: #e1306c;
+}
+.Hubungi ul li:nth-child(4):before {
+  background: #2867b2;
+}
+.Hubungi ul li:nth-child(5):before {
+  background: #ff0000;
+}
+.Hubungi ul li:hover:before {
+  filter: blur(3px);
+  transform: scale(1.2);
+  /* box-shadow: 0 0 15px #d35400; */
+}
+.Hubungi ul li:nth-child(1):hover:before {
+  box-shadow: 0 0 15px #4267b2;
+}
+.Hubungi ul li:nth-child(2):hover:before {
+  box-shadow: 0 0 15px #1da1f2;
+}
+.Hubungi ul li:nth-child(3):hover:before {
+  box-shadow: 0 0 15px #e1306c;
+}
+.Hubungi ul li:nth-child(4):hover:before {
+  box-shadow: 0 0 15px #2867b2;
+}
+.Hubungi ul li:nth-child(5):hover:before {
+  box-shadow: 0 0 15px #ff0000;
+}
+.Hubungi ul li:nth-child(1):hover {
+  color: #456cba;
+  box-shadow: 0 0 15px #4267b2;
+  text-shadow: 0 0 15px #4267b2;
+}
+.Hubungi ul li:nth-child(2):hover {
+  color: #26a4f2;
+  box-shadow: 0 0 15px #1da1f2;
+  text-shadow: 0 0 15px #1da1f2;
+}
+.Hubungi ul li:nth-child(3):hover {
+  color: #e23670;
+  box-shadow: 0 0 15px #e1306c;
+  text-shadow: 0 0 15px #e1306c;
+}
+.Hubungi ul li:nth-child(4):hover {
+  color: #2a6cbb;
+  box-shadow: 0 0 15px #2867b2;
+  text-shadow: 0 0 15px #2867b2;
+}
+.Hubungi ul li:nth-child(5):hover {
+  color: #ff1a1a;
+  box-shadow: 0 0 15px #ff0000;
+  text-shadow: 0 0 15px #ff0000;
 }
