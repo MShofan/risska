@@ -178,7 +178,7 @@ a.social {
 }
 .card__description {
   font-size: var(--small-font-size);
-  transform: translateX(-2.4rem);
+  transform: translateX(-1.4rem);
   font-weight: bold;
   text-align: initial;
   margin-bottom: 2rem;
@@ -228,7 +228,7 @@ a.social {
 }
 
 .card:hover .card__preci {
-  transform: translateX(-5.8rem);
+  transform: translateX(-4rem);
 }
 
 .card:hover .card__description,
